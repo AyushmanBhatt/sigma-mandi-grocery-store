@@ -1,0 +1,23 @@
+.deliveryorder{
+    display: flex;
+    width: 100%;
+
+.deliverydetails{
+    flex: 5;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+}
+
+.listcontainer{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px white;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    margin: 0 30px;
+
+}

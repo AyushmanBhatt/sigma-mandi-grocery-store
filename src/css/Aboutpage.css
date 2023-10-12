@@ -1,0 +1,128 @@
+
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:70vh;
+    margin-top:5vh;
+  }
+  .about-intro{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:55%;
+    line-height:10vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .about-intro h1{
+    color:silver
+  }
+  .about-intro p{
+    font-size:1.5rem;
+    line-height:2.2rem;
+    width:50rem;
+  }
+  #slogan{
+    font-size:1.5rem;
+  }
+  #teamname{
+    font-size:3rem;
+  }
+  .about-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .about-intro hr{
+    border:none;
+    height: 20px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid white;
+      box-shadow: 0 20px 20px -20px white;
+    margin: -50px auto 10px;
+  }
+  .about-card {
+    display: flex;
+    height: 60vh;
+    width:80%;
+    margin-top:15vh;
+  }
+  
+  .left-about-card {
+    flex: 1;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    background: linear-gradient(
+    to bottom, 
+    rgba(19,19,31,255) 0%, 
+    rgba(19,19,31,255) 50%, 
+    #627087 50%, 
+    #627087 100%
+  );
+  }
+  .left-about-card img{
+    height:80%;
+    width:90%;
+  }
+  .right-about-card {
+    background-color: rgba(19,19,31,255);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-about-content {
+    width: 50%;
+  }
+  
+  .right-about-content h3 {
+    font-size: 2rem;
+  }
+  
+  .right-about-content h1 {
+    font-size: 4rem;
+    color: rgb(120, 136, 171);
+  }
+  
+  .right-about-content p {
+    font-size: 1rem;
+  }
+  
+  .right-about-card button {
+    margin-top:20px;
+    width: 150px;
+    height: 40px;
+    color:white;
+    background-color:#627087;
+    border: 2px black solid;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .right-about-card button::before {
+    content: "";
+    display: block;
+    background-color:darkblue;
+    height: 100%;
+    width: 0;
+    color:black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.4s ease-in;
+    z-index: -1;
+  }
+  
+  .right-about-card button:hover::before{
+    left: 0;
+     width: 100%;
+     color:black;
+  }

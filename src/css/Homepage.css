@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Philosopher&display=swap');
+.lets-now-shop1 {
+  font-size: 4rem;
+  margin: 0;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.lets-now-shop-for-container1 {
+  position: relative;
+}
+
+.freshness-and-speed1 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  ;
+  display: inline-block;
+  width: 634px;
+  height: 150px;
+  flex-shrink: 0;
+  font-size: 2rem;
+}
+
+.title1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.order-now {
+  position: absolute;
+  top: 28px;
+  left: 60px;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+}
+
+.shop {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkolivegreen);
+  width: 255px;
+  height: 85px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.body1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body1 {
+  flex-direction: column;
+  gap: 40px;
+}
+
+.landing-icon {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+
+.landing1 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.groceries {
+  position: relative;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  background: linear-gradient(#101010, #101010), #407536;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.groceries-home {
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-gray);
+  font-family: var(--font-philosopher);
+}
+
+
+
+
+.button1 {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  width: 12rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  border: 2px solid  rgba(128, 237, 153);
+  background-size: 400%;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+.button1:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(82.3deg,
+      rgba(128, 237, 153) 10.8%,
+      rgb(168, 255, 62) 94.3%);
+  transition: all 0.475s;
+}

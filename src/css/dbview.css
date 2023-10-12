@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Philosopher&display=swap');
+.grid-container{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    padding:10px;
+}
+.dbviewh1{
+    font-size:3rem;
+    font-family: 'Philosopher', sans-serif;
+}
+.marketplace-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}

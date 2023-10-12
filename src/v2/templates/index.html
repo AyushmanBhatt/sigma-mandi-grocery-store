@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Price Prediction</title>
+</head>
+
+<body>
+    <h1>Vegetable Price Prediction</h1>
+    <form method="POST">
+        <label for="date">Select a Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+        <label for="vegetable">Select a Vegetable:</label>
+        <select id="vegetable" name="vegetable" required>
+            {% for veg_name in vegetable_names %}
+            <option value="{{ loop.index0 }}">{{ veg_name }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+        <input type="submit" value="Predict Price">
+    </form>
+</body>
+
+</html>

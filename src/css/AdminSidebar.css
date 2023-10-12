@@ -1,0 +1,66 @@
+.adminsidebar{
+    flex: 1;
+    border-right:0.5px solid grey;
+    padding-top: 1rem;
+    min-height: 100vh;
+
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .logo{
+            font-size: 50px;
+            font-weight: bold;
+            color: green;
+        }
+    }
+
+    hr{
+        height: 0;
+        border:0.5px solid grey;
+    }
+}
+
+.center{
+    padding-left:10px;
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+
+    }
+}
+
+ul .title{
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.center li{
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    cursor: pointer;
+
+
+    &:hover
+    {
+        background-color:  rgb(168, 255, 62);
+        transition: 1s;
+    }
+} 
+
+li span{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+    margin-left: 10px;
+}

@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+  .product-carousel {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  .product-carousel {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-carousel {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+.demos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: space-around;
+}

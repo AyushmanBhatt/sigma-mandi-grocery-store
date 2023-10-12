@@ -1,0 +1,223 @@
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    
+}
+@media screen and (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+      padding: 20px; /* Adjust padding for smaller screens */
+      /* ... other styles ... */
+    }
+  }
+
+.contact-page h1{
+    padding-top: 1rem;
+    font-size:50px;
+    color:white ;
+}
+p1{
+    margin-top: 0;
+    font-size: 20px;
+    color: gray;
+}
+#contact-container{
+ display: flex;
+ background: white;
+ max-width: 70%;
+width: auto;
+border-radius: 15px;
+ padding: 10px;
+ -webkit-box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.75);
+ -moz-box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.75);
+ box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.75);
+}
+ .contact-info{
+    background-color: #5cb35e;
+    flex: 0 1 40%;
+    padding:45px; 
+    width: 1300px;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+ }
+.contact-info h4{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.contact-info p{
+    color: rgb(207, 204, 204);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 5rem;
+    margin-top: 0;
+    justify-content: flex-start;
+    display: flex;
+    font-weight: 1.3cm;
+
+}
+
+.icon-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+    margin-bottom: 2rem;
+    padding-right: 10rem;
+}
+.contact-info .icon-text .fa-solid{
+    flex: 0 0 20px;
+     font-size: 1.5rem;
+    margin-right: 2rem;
+}
+.icon-text span{
+        font-size: 1.2em;
+        font-weight: 500;   
+        line-height:.8em;
+        letter-spacing: -.6px;  
+}
+.social-media {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    margin-top: 1rem; /* Adjust spacing */
+  }
+  
+.icon-circle{
+    flex: 0 1 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px; 
+    border-radius: 50%;
+    transition: .3s all ease-in-out;
+    color: white;
+    text-decoration: none; 
+}
+.icon-circle:hover {
+    background: white;
+    color:  #5cb35e;
+}
+.fa-brands{
+    font-size: 25px;
+   }
+.bottom{
+    display: flex;
+}
+   .dot{
+
+    background-color: black;
+    display: inline-block;
+    left: 116px;
+    top: 52px;
+    position: relative;
+    width: 200px;
+    height: 200px; 
+    border-radius: 2000px 90px 180px 90px;
+    z-index: 1;
+    @media screen and (max-width: 768px) {
+        left: auto;
+        right: 80px;
+      }
+        
+   }
+
+form{
+    padding: 40px;
+    width: 100%;
+}
+
+form .col-2{
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+form .form-group{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: start;
+    flex: 0 1 100%;
+    padding-right: 40px; 
+    position: relative;
+}
+
+label{
+    font-size: .9;
+    margin-bottom:  .8rem;
+    color: gray;
+    transition: all 0.2s ease-in-out;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+      }
+}
+
+.inputfields{
+    border: none;
+    cursor: pointer;
+    border-bottom:1px solid gray;
+    font-size: 1.2rem; 
+    font-weight: 300;
+    width: 100%;
+    color: black;
+    border-bottom: 1.5px solid gray;
+    transition: all .2s ease-in-out;
+    margin-bottom: 3rem;
+}
+.inputfields:focus{
+    border: none;
+    outline: none;
+    border-bottom:1.5px solid black;
+    background: none;
+}
+.inputfields:focus + .label {
+    font-size: 1.1rem; 
+    color: black;
+}
+
+.form-group:nth-child(2){
+    padding-right: 0;
+}
+
+#btttn{
+    padding: 14px 50px 10px 50px;
+    
+    color: white;
+    font-size: 1rem;
+    background-color:black;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: end;
+    float: right;
+}
+
+.contactbutton:hover{
+    opacity:.7 ;
+    transition: all .5s ease-in-out;
+}
+
+.aeroplane{
+    position: relative;
+    height: 200px;
+    width: 50%;
+    top: 52px;
+   right: -150px;
+
+   @media screen and (max-width: 768px) {
+    height: 150px; /* Adjust the height for smaller screens */
+    width: auto; /* Allow the width to scale based on the height */
+    top: 20px; /* Adjust the vertical position */
+    right: 0; /* Reset the horizontal position */
+  }
+}
+ 

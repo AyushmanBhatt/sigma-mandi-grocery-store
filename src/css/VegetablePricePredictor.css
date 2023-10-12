@@ -1,0 +1,75 @@
+
+.VegetablePricePredictor-container {
+    max-width: 600px; 
+    margin: 2rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .VegetablePricePredictor-label {
+    font-weight: bold;
+    font-size: 1.5rem; 
+    color: #fff;
+  }
+  
+  .VegetablePricePredictor-select,
+  .VegetablePricePredictor-input{
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0.5rem;
+    color: black;
+    border: 2px solid #ccc;
+    font-size: 1.2rem; 
+    border-radius: 5px;
+  }
+  
+  .VegetablePricePredictor-button {
+    background-color: green;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem; 
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+  
+  .VegetablePricePredictor-button:hover {
+    background-color: greenyellow;
+    transition: 0.5s all ease-in-out;
+  }
+
+  @media screen and (min-width: 768px) {
+    .VegetablePricePredictor-container {
+      max-width: 800px; 
+    }
+    
+    .VegetablePricePredictor-label {
+      font-size: 2rem;
+    }
+    
+    .VegetablePricePredictor-select,
+    .VegetablePricePredictor-input {
+      font-size: 1.4rem;
+    }
+    
+    .VegetablePricePredictor-button {
+      font-size: 1.8rem; 
+    }
+  }
+
+  
+  .prediction-title {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .warning {
+    font-size: 1.5rem;
+    color: red;
+  }

@@ -1,0 +1,18 @@
+.vege{
+    display: flex;
+    width: 100%;
+
+.vegedetails{
+    flex: 5;
+}
+
+}
+.vege-title{
+    font-size: 4rem;
+    background: linear-gradient(82.3deg,
+    rgba(128, 237, 153) 10.8%,
+    rgb(168, 255, 62) 94.3%);
+transition: all 0.475s;
+color: rgb(180, 171, 171);
+box-shadow: forestgreen;
+}
